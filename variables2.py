@@ -9,3 +9,14 @@ print(my_age)
 print(my_city)
 print(is_student)
 print(my_height)
+
+name = "Reuben"    # whiteboard says Reuben
+name = "Israel"    # whiteboard erased, now says Israel
+print(name)        # prints whatever is on the whiteboard now → Israel
+
+score = 0
+print(score)
+score = score + 10
+print(score)
+score = score + 5
+print(score)
