@@ -23,3 +23,12 @@ print(a > b)    # is a greater than b?
 print(a < b)    # is a less than b?
 print(a >= b)   # is a greater than or equal to b?
 print(a <= b)   # is a less than or equal to b?
+
+
+# Logical Operators
+age = 20
+score = 250
+
+print(age >= 18 and score >= 200)   # old enough AND score high enough?
+print(age >= 18 or score >= 300)    # old enough OR score above 300?
+print(not age >= 18)                # is age NOT 18 or above?
