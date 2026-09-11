@@ -12,12 +12,14 @@ print(a ** b)  # exponent
 print(10 % 2)   # 0 — even
 print(7 % 2)    # 1 — odd
 
-# Unary minus
-balance = -1500
-print(balance)
 
-# Mixing int and float
-print(10 + 2.5)
+# Comparison Operators
+a = 10
+b = 3
 
-# ZeroDivisionError - what happens when you divide by zero
-print(10 / 0)
+print(a == b)   # is a equal to b?
+print(a != b)   # is a not equal to b?
+print(a > b)    # is a greater than b?
+print(a < b)    # is a less than b?
+print(a >= b)   # is a greater than or equal to b?
+print(a <= b)   # is a less than or equal to b?
